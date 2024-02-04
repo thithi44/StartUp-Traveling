@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0 1px 3px -2px white;
+    background-color: black;
+    color: white;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:  1px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background:greenyellow;
+}
+
+.nav-login{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login button{
+    width: 160px;
+    height: 60px;
+    outline: white;
+    border-radius: 75px;
+    border: 3px solid greenyellow;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background: black;
+}
+
+
+
+
