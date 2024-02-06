@@ -7,12 +7,14 @@ import Packages from './Pages/Packages';
 import Guiders from './Pages/Guiders';
 import ContactUs from './Pages/ContactUs';
 import LoginSignup from './Pages/LoginSignup';
+import HomeB1 from './Components/Assets/HomeB1/HomeB1';
 
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
     <Navbar/>
+    <HomeB1/>
 
     <Routes>
       <Route path='/' element={<Home/>}/>

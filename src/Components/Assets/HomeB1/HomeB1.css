@@ -1,0 +1,36 @@
+.card-page{
+    background-color: rgb(12, 10, 10);
+    text-align:left;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items:center;
+      text-align: left;
+    }
+    
+    .card {
+      background-image: url(/src/Components/Assets/BANNER.webp);
+      background-attachment:scroll;
+      background-size:cover;
+      background-size: 100% 130% ;
+      align-content: left;
+      color: black;
+      font-size: 35px;
+      text-align: center;
+      width: 97.5%;
+      margin-bottom: 50px;
+      padding: 30px;
+      text-align: left;
+    }
+    
+    .view-more {
+      font-size: 25px;
+      align-content: center;
+      background-color: black;
+      color: greenyellow;
+      border: white;
+      border-radius: 30px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    

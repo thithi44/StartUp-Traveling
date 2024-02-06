@@ -5,7 +5,8 @@
     padding-right: 80px;
     box-shadow: 0 1px 3px -2px white;
     background-color: black;
-    color: white;
+    color: greenyellow;
+    
 }
 
 .nav-logo{
@@ -15,12 +16,14 @@
 }
 
 .nav-menu{
+    color: white;
     display: flex;
     align-items: center;
     list-style: none;
     gap: 50px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
+ 
 }
 
 .nav-menu li{
@@ -54,11 +57,9 @@
     border-radius: 75px;
     border: 3px solid greenyellow;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     background: black;
 }
-
-
 
 

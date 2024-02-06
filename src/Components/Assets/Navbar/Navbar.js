@@ -13,15 +13,15 @@ export default function Navbar() {
          <img src={logo} alt="Start Up logo" width={250} />
       </div>
          <ul className="nav-menu">
-            <li onClick={()=>{setMenu("Home")}}><Link style={{ textDecoration: 'none'}} to='/'>Home</Link>{menu==="Home"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("About Us")}}><Link style={{textDecoration: 'none'}} to='/AboutUs'>About Us</Link>{menu==="About Us"?<hr/>:<></>} </li>
-            <li onClick={()=>{setMenu("Packages")}}><Link style={{textDecoration: 'none'}} to='/Packages'>Packages</Link>{menu==="Packages"?<hr/>:<></>} </li>
-            <li onClick={()=>{setMenu("Guiders")}}><Link style={{textDecoration: 'none'}} to='/Guiders'>Guiders</Link>{menu==="Guiders"?<hr/>:<></>} </li>
-            <li onClick={()=>{setMenu("Contact Us")}}><Link style={{textDecoration: 'none'}} to='/ContactUs'>Contact Us</Link>{menu==="Contact Us"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("Home")}}>< Link style={{color: 'inherit', textDecoration: 'none'}} to='/'>Home{menu==="Home"?<hr/>:<></>}</Link></li>
+            <li onClick={()=>{setMenu("About Us")}}><Link style={{color: 'inherit', textDecoration: 'none'}} to='/AboutUs'>About Us</Link>{menu==="About Us"?<hr/>:<></>} </li>
+            <li onClick={()=>{setMenu("Packages")}}><Link style={{color: 'inherit', textDecoration: 'none'}} to='/Packages'>Packages</Link>{menu==="Packages"?<hr/>:<></>} </li>
+            <li onClick={()=>{setMenu("Guiders")}}><Link style={{color: 'inherit', textDecoration: 'none'}} to='/Guiders'>Guiders</Link>{menu==="Guiders"?<hr/>:<></>} </li>
+            <li onClick={()=>{setMenu("Contact Us")}}><Link style={{color: 'inherit', textDecoration: 'none'}} to='/ContactUs'>Contact Us</Link>{menu==="Contact Us"?<hr/>:<></>}</li>
          </ul>
       <div className="nav-login">
         <Link style={{textDecoration: 'none'}} to='/LoginSignup'> <button>Login</button></Link>
       </div>
     </div>
-  )
+  ) 
 }
